@@ -1,0 +1,64 @@
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("C:\Users\suchi\OneDrive\Desktop\OIG.YGg3R38.jpg");
+  background-size: 165vh;
+  /*background-size: cover;  This makes the image cover the entire container 
+  background-position: center;
+  background-repeat: no-repeat;*/
+}
+
+
+
+
+  
+  .registration-form {
+   
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 1s ease;
+    margin: 10px;
+  }
+  .registration-form.left {
+    transform: translateX(-50%); /* Move the form to the left */
+  }
+  
+  .registration-form.right {
+    transform: translateX(50%); /* Move the form to the right */
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .form-group.error {
+    border: 1px solid #ff0000;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
